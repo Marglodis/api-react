@@ -1,10 +1,9 @@
 import React from "react";
-import Detalle from "./Detalle";
-//import { useEffect,useState } from "react";
+import Modal from "./Modal";
+
 
 const Aves = ({ aves }) => {
   return (
-    
     <div className="galeria">
       {aves.map((item) => (
         <div key={item.uid} className="tarjeta">
@@ -14,17 +13,21 @@ const Aves = ({ aves }) => {
               <h3>{item.name.spanish}</h3>
             </div>
           </div>
+
           <div className="face back">
             <h3>{item.name.english}</h3>
             <p>({item.name.latin})</p>
             <div className="link">
-            <a href="!#"><Detalle spanish={item.name.english} english={item.name.spanish}/></a>
+            <button type="button" className="btn btn-light" data-bs-toggle="modal" data-bs-target={`#${item.uid}`}>
+            Detalles
+            </button>
             </div>
+            <Modal id={item.uid} titulo={item.name.spanish} descripcion={item.name.english}/>
           </div>
+          
         </div>
       ))}
     </div>
-    
   );
 };
 
