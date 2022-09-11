@@ -35,8 +35,8 @@ function Detalle() {
 
   return (
     <>
-      <Button variant="primary" onClick={() => setModalShow(true)}>
-        Launch vertically centered modal
+      <Button variant="light" onClick={() => setModalShow(true)}>
+        Detalles
       </Button>
 
       <MyVerticallyCenteredModal
