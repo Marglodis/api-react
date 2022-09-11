@@ -1,6 +1,6 @@
 import React from "react";
 
-const Busqueda = ({ busqueda, setBusqueda, resultado }) => {
+const Busqueda = ({ busqueda, setBusqueda}) => {
   const handleChange = (e) => {
     setBusqueda(e.target.value);
   };

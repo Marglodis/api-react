@@ -38,8 +38,7 @@ const MiApi = () => {
 
   // Cambiar de Página
   const paginate = (pageNumber) => {
-    console.log(pageNumber);
-    setCurrentPage(pageNumber);
+        setCurrentPage(pageNumber);
   };
 
   return (
@@ -47,7 +46,6 @@ const MiApi = () => {
       <Busqueda
         busqueda={busqueda}
         setBusqueda={setBusqueda}
-        resultado={currentBirds}
       />
       <div>
         <Paginacion

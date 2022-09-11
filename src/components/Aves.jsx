@@ -2,7 +2,7 @@ import React from "react";
 import Modal from "./Modal";
 
 
-const Aves = ({ aves }) => {
+const Aves = ({ aves =[]}) => {
   return (
     <div className="galeria">
       {aves.map((item) => (
