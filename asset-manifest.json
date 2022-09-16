@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/api-react/static/css/main.d2eae254.css",
+    "main.js": "/api-react/static/js/main.dda17a40.js",
+    "index.html": "/api-react/index.html",
+    "main.d2eae254.css.map": "/api-react/static/css/main.d2eae254.css.map",
+    "main.dda17a40.js.map": "/api-react/static/js/main.dda17a40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2eae254.css",
+    "static/js/main.dda17a40.js"
+  ]
+}
