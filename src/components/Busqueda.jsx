@@ -1,4 +1,5 @@
 import React from "react";
+import logobird from "../assets/img/logobird.png";
 
 const Busqueda = ({ busqueda, setBusqueda}) => {
   const handleChange = (e) => {
@@ -19,7 +20,7 @@ const Busqueda = ({ busqueda, setBusqueda}) => {
             onChange={handleChange}
           ></input>
           <div className="btn">
-            <img src="logobird.png" alt="aves"></img>
+            <img src={logobird} alt="aves"></img>
           </div>
         </div>
       </div>
