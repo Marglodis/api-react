@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# pages
+https://marglodis.github.io/api-react/
 
 # Enlaces a repositorio y video
 https://youtu.be/0VwyjRaaGvE
